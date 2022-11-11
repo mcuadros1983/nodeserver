@@ -4,11 +4,17 @@
   "description": "Server nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon app",
+    "start":"node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.31.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
